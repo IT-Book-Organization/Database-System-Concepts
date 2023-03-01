@@ -2,20 +2,20 @@
 
 <br/>
 
-데이터베이스 스키마는 **주 키와 외래 키 종속성**을 가지고 있는데, 이는 `스키마 다이이어그램(schema diagram)`을 이용해 시작적으로 나타낼 수 있다.
+데이터베이스 스키마는 **주 키와 외래 키 종속성**을 가지고 있는데, 이는 `스키마 다이이어그램(schema diagram)`을 이용해 시각적으로 나타낼 수 있다.
 
 <br/>
 
 ### 대학교 데이터베이스의 스키마
 
-<p align="center"><img width="520" alt="대학교 데이터베이스의 스키마" src="https://user-images.githubusercontent.com/86337233/222133066-4249b4ae-2d9a-437a-b670-2caa53fa14d2.png">
+<p align="center"><img width="550" alt="대학교 데이터베이스의 스키마" src="https://user-images.githubusercontent.com/86337233/222133066-4249b4ae-2d9a-437a-b670-2caa53fa14d2.png">
 
 <br/>
 <br/>
 
 ### 대학교 데이터베이스의 스키마 다이어그램
 
-<p align="center"><img width="750" alt="대학교 데이터베이스의 스키마 다이어그램" src="https://user-images.githubusercontent.com/86337233/222133070-74cbeaa5-02bc-4d91-bea7-0747623d05ab.png">
+<p align="center"><img width="900" alt="대학교 데이터베이스의 스키마 다이어그램" src="https://user-images.githubusercontent.com/86337233/222133070-74cbeaa5-02bc-4d91-bea7-0747623d05ab.png">
 
 <br/>
 <br/>
