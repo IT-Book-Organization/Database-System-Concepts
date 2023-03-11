@@ -91,7 +91,7 @@ from course;
 
 ### distinct과 all
 
-> SQL은 **count(*)에서** distinct를 사용하는 것을 금하고 있다.
+> SQL은 <b>count(*)에서</b> distinct를 사용하는 것을 금하고 있다.
 
 <br/>
 
@@ -282,22 +282,21 @@ having count(ID) >= 2;
 
 널 값이 존재할 때 널 값은 집계 함수의 처리를 복잡하게 만든다.
 
-instructor 릴레이션의 몇몇 튜플에 salary에 대해 널 값을 가진다고 가정하고, 모든 급여의 총합을 구하는 다음 질의를 고려해보자.
+<br/>
+
+예를 들어, instructor 릴레이션의 몇몇 튜플에 salary에 대해 널 값을 가진다고 가정하여 모든 급여의 총합을 구하는 다음 질의를 고려해보자.
 
 ```sql
 select sum(salary)
 from instructor;
 ```
 
-<br/>
-
-위 질의에서 합해지는 값은 일부 튜플이 salary에 대해 널 값을 가지고 있으므로 널 값을 포함한다.
-
-전체 합이 null이라고 말하기보다는, SQL 표준은 `sum 연산은 입력의 null 값을 무시한다`고 말한다.
+- 위 질의에서 합해지는 값은 일부 튜플이 salary에 대해 널 값을 가지고 있으므로 널 값을 포함한다.
+- 전체 합이 null이라고 말하기보다는, SQL 표준은 `sum 연산은 입력의 null 값을 무시한다`고 말한다.
 
 <br/>
 
-> **count(*)를 제외한 모든 집계 함수는 입력 값에서 널을 무시한다.**
+> <b>count(*)를 제외한 모든 집계 함수는 입력 값에서 널을 무시한다.</b>
 
 - 널 값을 무시한 결과로, 값의 모음은 비어 있을 수도 있다.
 - **빈 모음에 대한** `count`**는 0**으로 정의되고, 다른 모든 집계 연산은 빈 모음이 적용되었을 때 널 값을 반환한다.
@@ -308,4 +307,5 @@ from instructor;
 
 **Boolean 데이터 타입**은 `true`, `false`, `unknown` 값을 가질 수 있다.
 
-`some`과 `every`와 같은 집계 함수는 불리언 값의 모음에 적용될 수 있고, 그 값들의 이접(disjunction)(`or`)과 연접(conjunction)(`and`)을 각각 계산할 수 있다.
+`some`과 `every`와 같은 집계 함수는 불리언 값의 모음에 적용될 수 있고,  
+그 값들의 이접(disjunction)(`or`)과 연접(conjunction)(`and`)을 각각 계산할 수 있다.
