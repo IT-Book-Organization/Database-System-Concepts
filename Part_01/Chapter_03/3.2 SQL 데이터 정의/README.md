@@ -123,9 +123,9 @@ create table r
     A2, D2,
     ...,
     An, Dn,
-    <integrity-contraint1>,
+    <integrity-constraint1>,
     ..,
-    <integrity-contraintk>
+    <integrity-constraintk>
 );
 ```
 
