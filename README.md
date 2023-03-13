@@ -11,7 +11,7 @@
 ### Part 1. 관계형 언어
 
 2. [관계형 모델 소개](/Part_01/Chapter_02)
-3. SQL 소개
+3. [SQL 소개](/Part_01/Chapter_03)
 4. 중급 SQL
 5. 고급 SQL
 
