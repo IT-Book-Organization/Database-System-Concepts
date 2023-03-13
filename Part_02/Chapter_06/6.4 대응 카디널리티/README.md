@@ -2,7 +2,8 @@
 
 <br/>
 
-> `대응 카디널리티(mapping cardinality)` 혹은 `카디널리티 비율(cardinality ratio)`은 관계 집합을 통해 **다른 개체와 관련될 수 있는 개체의 수**를 나타낸다.
+> `대응 카디널리티(mapping cardinality)` 혹은 `카디널리티 비율(cardinality ratio)`은  
+> 관계 집합을 통해 **다른 개체와 관련될 수 있는 개체의 수**를 나타낸다.
 
 <br/>
 
@@ -59,6 +60,7 @@ B의 한 개체도 임의의 수(0 또는 그 이상)의 A의 개체와 연관�
 
 <br/>
 <br/>
+<br/>
 
 ## 관계 집합의 대응 카디널리티 표현
 
@@ -68,4 +70,4 @@ E-R 다이어그램 표기법에서 관계 집합과 연관된 개체 집합 사
 
 <br/>
 
-<p align="center"><img width="460" alt="관계 집합의 대응 카디널리티 표현" src="https://user-images.githubusercontent.com/86337233/224700122-af6578c8-8830-4f14-8c52-0368a730b03e.png">
+<p align="center"><img width="500" alt="관계 집합의 대응 카디널리티 표현" src="https://user-images.githubusercontent.com/86337233/224700122-af6578c8-8830-4f14-8c52-0368a730b03e.png">
