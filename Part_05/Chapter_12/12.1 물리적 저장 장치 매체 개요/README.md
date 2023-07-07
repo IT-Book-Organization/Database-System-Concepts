@@ -53,7 +53,7 @@
 ## 자기 디스크 저장 장치, Magnetic-disk storage
 
 - 온라인으로 장기간 데이터를 저장하기 위한 주된 매체이다.
-- `하드 디스크 드라이브(hard disk drve, HDD)`라고도 한다.
+- `하드 디스크 드라이브(hard disk drive, HDD)`라고도 한다.
 - `비휘발성(non-volatile)`이다.
 
 <br/>
