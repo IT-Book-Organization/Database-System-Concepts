@@ -132,6 +132,7 @@ e.g., 16개의 블록이 있는 파일에 대한 여유 공간 맵
 
 <br/>
 <br/>
+<br/>
 
 ## 레코드의 삭제와 삽입
 
@@ -160,6 +161,7 @@ e.g., 16개의 블록이 있는 파일에 대한 여유 공간 맵
 
 <p align="center"><img width="600" alt="순차 파일 구성 - 삭제와 삽입" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/97112361-8088-458e-a145-e7e7acbfd2c1">
 
+<br/>
 <br/>
 <br/>
 
