@@ -50,7 +50,9 @@
   (1) **검색 키 값**과 (2) 이를 검색 키 값으로 가지는 한 개 이상의 레코드에 대한 **포인터**로 구성되어 있다.
 - 포인터 : 디스크 블록의 식별자 + 블록 안에서 레코드를 구별하기 위한 오프셋(offset)
 
-<p align="center"><img width="280" alt="인덱스 레코드의 구성" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/97a9f2ac-77a6-4698-b218-364a3cc61877">
+<br/>
+
+<p align="center"><img width="300" alt="인덱스 레코드의 구성" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/97a9f2ac-77a6-4698-b218-364a3cc61877">
 
 <br/>
 <br/>
@@ -83,14 +85,14 @@
 
 검색 키가 ID인 밀집 클러스터링 인덱스
 
-<p align="center"><img width="500" alt="밀집 인덱스 - ID" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/23264aa5-7cf9-4b84-bfae-469a3bfb542d">
+<p align="center"><img width="550" alt="밀집 인덱스 - ID" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/23264aa5-7cf9-4b84-bfae-469a3bfb542d">
 
 <br/>
 <br/>
 
 검색 키가 dept_name인 밀집 클러스터링 인덱스
 
-<p align="center"><img width="530" alt="밀집 인덱스 - dept_name" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/4a0494e8-8aad-4a5f-8634-94437b052f9f">
+<p align="center"><img width="560" alt="밀집 인덱스 - dept_name" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/4a0494e8-8aad-4a5f-8634-94437b052f9f">
 
 <br/>
 <br/>
@@ -107,7 +109,7 @@
 
 <br/>
 
-<p align="center"><img width="500" alt="희소 인덱스" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/9df4d485-9813-4887-815f-f5c80df3f488">
+<p align="center"><img width="560" alt="희소 인덱스" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/9df4d485-9813-4887-815f-f5c80df3f488">
 
 <br/>
 <br/>
@@ -164,7 +166,7 @@
 
 <br/>
 
-<p align="center"><img width="530" alt="보조 인덱스" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/5fa3cb9e-0ac7-4482-9a81-e98bca515680">
+<p align="center"><img width="580" alt="보조 인덱스" src="https://github.com/IT-Book-Organization/Database-System-Concepts/assets/86337233/5fa3cb9e-0ac7-4482-9a81-e98bca515680">
 
 <br/>
 <br/>
