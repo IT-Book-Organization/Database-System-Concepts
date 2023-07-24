@@ -7,7 +7,7 @@
 > 다양한 데이터 항목에 접근하고 갱신하는 프로그램 수행의 **단위**
 
 - 한 트랜잭션은 `begin transaction`과 `end transaction` 사이에서 실행되는 연산으로 구성되어 있다.
-- 보통 한 트랜잭션은 고급 데이터 조작 언어(주로 SQL)나 JDBC나 ODBC를 사용해
+- 보통 한 트랜잭션은 고급 데이터 조작 언어(주로 SQL)나 JDBC나 ODBC를 사용해  
   데이터베이스에 접근하는 프로그래밍 언어로 작성된 사용자 프로그램으로 수행된다.
 
 <br/>
@@ -33,10 +33,10 @@
 
 > Atomic execution of a transaction in isolation preserves the consistency of the database.
 
-- 만약 한 트랜잭션이 일관된 상태의 데이터베이스에서 원자적이고 고립된 상태로 실행되었다면
+- 만약 한 트랜잭션이 일관된 상태의 데이터베이스에서 원자적이고 고립된 상태로 실행되었다면  
   데이터베이스는 **트랜잭션이 종료된 후에도 일관된 상태여야 한다.**
-- 데이터 무결성 제약 조건(주 키 제약 조건, 참조 키 제약 조건 등) 뿐만 아니라,  
-  SQL을 사용해 기술할 수 없는 응용 프로그램 자체의 일관성 조건을 보장해야 한다. → 이런 제약 조건을 지키는 것은 트랜잭션을 만드는 프로그래머의 책임이다.
+- 데이터 무결성 제약 조건(주 키 제약 조건, 참조 키 제약 조건 등) 뿐만 아니라, SQL을 사용해 기술할 수 없는 응용 프로그램 자체의 일관성 조건을 보장해야 한다.  
+  → 이런 제약 조건을 지키는 것은 트랜잭션을 만드는 프로그래머의 책임이다.
 
 <br/>
 
@@ -47,8 +47,7 @@
 > Although multiple transactions may execute concurrently, each transaction must be unaware of other concurrently
 > executing transactions. Intermediate transaction results must be hidden from other concurrently executed transactions.
 
-- 모든 트랜잭션 Ti와 Tj의 쌍에 대해  
-  데이터베이스 시스템은 Ti에게 Ti가 시작되기 전에 Tj가 수행을 끝마쳤거나,
+- 모든 트랜잭션 Ti와 Tj의 쌍에 대해 / 데이터베이스 시스템은 Ti에게 Ti가 시작되기 전에 Tj가 수행을 끝마쳤거나,  
   아니면 Ti가 수행을 끝마친 후에 Tj가 수행을 시작하는 것과 같이 되도록 보장해야 한다.
 - 데이터베이스 시스템은 **동시에 수행되는 다른 데이터베이스 명령어의 영향을 받지 않고** 트랜잭션이 올바르게 수행할 수 있도록 특별한 조치를 해야 한다.
 - 고립성을 유지하는 것은 데이터베이스 시스템의 성능에 부정적인 영향을 미치기 때문에 몇몇 응용 프로그램은 고립성을 지키지 않기도 한다.
