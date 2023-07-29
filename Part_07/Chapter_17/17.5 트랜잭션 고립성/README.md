@@ -62,8 +62,10 @@ CPU와 디스크는 서로 병렬적으로 동작할 수 있기 때문에, I/O �
 일련의 트랜잭션 스케줄은 반드시 그 트랜잭션의 모든 명령어를 포함하고 있어야 하며,  
 명령어는 개별 트랜잭션의 명령어 순서를 따라야 한다.
 
+<br/>
+
 - A transaction that **succesfully complete**s its execution will have a `commit instruction` as the last statement
-- A transaction that **fails to complete** its execution will have an `abort instructio`n as the last statement
+- A transaction that **fails to complete** its execution will have an `abort instruction` as the last statement
 
 <br/>
 
@@ -137,8 +139,7 @@ T2 : read(A);
 
 ## 직렬성, Serializability
 
-동시 수행한 스케줄의 결과가 **트랜잭션을 하나씩 순차적으로 수행하는 스케줄의 실행 결과와 동일**하게 함으로써  
-데이터베이스의 일관성을 보장할 수 있다.
+동시 수행한 스케줄의 결과가 **트랜잭션을 하나씩 순차적으로 수행하는 스케줄의 실행 결과와 동일**하게 함으로써 데이터베이스의 일관성을 보장할 수 있다.
 
 이런 스케줄을 `직렬 가능(serializable) 스케줄`이라고 한다.
 
