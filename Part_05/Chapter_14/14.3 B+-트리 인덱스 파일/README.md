@@ -121,7 +121,7 @@ e.g., B+-tree for instructor file (n = 6)
 ## 14.3.2 B+-트리에서 질의
 
 - `Point queries` : find(v)
-- `Range querie`s : findRange(lb, ub)
+- `Range queries` : findRange(lb, ub)
 
 <br/>
 
