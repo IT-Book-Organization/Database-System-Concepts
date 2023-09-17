@@ -8,7 +8,7 @@
 
 ### 순서 인덱스, ordered index
 
-> entries are stored sorted on the search key value
+> entries are stored on the search key value
 
 **검색 키의 값을 정렬된 순서로 저장**하고, 검색 키와 검색 키를 포함하는 레코드를 연계시킨다.
 
